@@ -13,7 +13,7 @@ function ProductModal({ product, onClose }: ProductModalProps) {
   const [shareOpen, setShareOpen] = useState(false);
 
   const handlePayment = () => {
-    const monnify = new Monnify('MK_PROD_V5EJMMX2FM', '100693167467'); // Replace with your keys or encode it . 
+    const monnify = new Monnify({Monnify_production_API_KEY}, {Contract_code}); // Replace with your keys or encode it . 
 
     monnify.initializePayment({
       amount: product.price,

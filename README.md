@@ -52,3 +52,16 @@ export default tseslint.config({
   },
 })
 ```
+
+# React + TypeScript + Vite
+
+Monnie store is made with # React + TypeScript + Vite + tailwindcss
+
+
+### screenshot main page
+
+
+### screenshot modal page with CTA 
+
+
+### screenshot payment with monnify one-time payment.
