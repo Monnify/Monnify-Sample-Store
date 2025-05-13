@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FaHeart, FaShareAlt, FaTimes, FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
-import { Product } from '../types';
+import { Product } from '../types/types';
 import Monnify from 'monnify-js'; 
 
 interface ProductModalProps {
@@ -11,9 +11,11 @@ interface ProductModalProps {
 function ProductModal({ product, onClose }: ProductModalProps) {
   const [liked, setLiked] = useState(false);
   const [shareOpen, setShareOpen] = useState(false);
+  const MONNIFY_API_KEY = import.meta.env.VITE_MONNIFY_API_KEY;
+  const CONTRACT_CODE = import.meta.env.VITE_CONTRACT_CODE;
 
   const handlePayment = () => {
-    const monnify = new Monnify({Monnify_production_API_KEY}, {Contract_code}); // Replace with your keys or encode it . 
+    const monnify = new Monnify(MONNIFY_API_KEY , CONTRACT_CODE); // Replace with your keys or encode it . 
 
     monnify.initializePayment({
       amount: product.price,

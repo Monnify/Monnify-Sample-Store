@@ -2,9 +2,7 @@ import { useState } from 'react';
 import Navbar from './components/Navbar';
 import ProductCard from './components/ProductCard';
 import ProductModal from './components/ProductModal';
-import { Product } from './types';
-
-import reactLogo from './assets/react.svg';
+import { Product } from './types/types';
 import ToteBag from './assets/ToteBag.png';
 import NoteBook from './assets/NoteBook.png';
 import AfricanPrint from './assets/AfricanPrint.png';
