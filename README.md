@@ -1,7 +1,7 @@
-# React + TypeScript + Vite
+## React + TypeScript + Vite
 
 Monnie store is made with # React + TypeScript + Vite + tailwindcss
-# Moniemarket - Monnify Sample Store
+## Moniemarket - Monnify Sample Store
 
 Welcome to Moniemarket, a simple online store using WebSDK, showcasing products and powered by the Monnify payment gateway.
 
@@ -35,16 +35,16 @@ We'd like to thank the following contributors for their contributions to this pr
 - Bolarinwa Ajayi / frontend development
 
 
-### screenshot main page
+### Product page
 
 ![Product Catalog](https://github.com/user-attachments/assets/4431722b-40ba-4b36-bf32-3c3bc6a048fa)
 
 
-### screenshot modal page with CTA 
+### Product modal page with Call to Action functionality  
 ![Product Modal](https://github.com/user-attachments/assets/f4e5b49a-15f7-400b-960d-f0e77af5cfa1)
 
 
-### screenshot payment with monnify one-time payment.
+### Activate payment with monnify one-time payment.
 ![Payment Gateway](https://github.com/user-attachments/assets/a8ce2b3d-5a68-43b5-8c17-57c5b89feaf9)
 
 ### Feedback
